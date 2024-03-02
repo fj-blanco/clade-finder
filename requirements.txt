@@ -1,5 +1,4 @@
 pytabix~=0.1 
-#python3-pysam
 pysam~=0.22.0
-#python3-pyvcf
 PyVCF3~=1.0.3 
+numpy~=1.26.4
