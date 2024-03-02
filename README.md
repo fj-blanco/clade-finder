@@ -1,15 +1,13 @@
 # clade-finder
-Determines Y-Haplogroup Clade From Positive and Negative SNPs
 
-Installation
+This is a fork of Provyn's [clade-finder](https://github.com/hprovyn/clade-finder). The CladeFinder is running on YSEQ's website ([YSEQ Clade Finder](https://cladefinder.yseq.net/)) and has been proven to be a useful tool for Y-DNA research.
 
-install pip3
+This fork is intended to be used in my batch processing pipelines to process .vcf and .csv with variant calls. I will document the usage of the repository for such cases as I go along. I will remove the php web app. I will focus on Y-DNA as well, at least in principle.
 
-Do not install pytabix using the --user paradigm. If you do, it will not be accessible by the apache www-data user.
-Instead, use sudo as below:
+## Installation
 
-sudo pip3 install pytabix
+Clone the repository and install the Python requirements into your Python environment:
 
-#install pysam and pyvcf
-sudo apt-get install python3-pysam
-sudo apt-get install python3-pyvcf
+```bash
+pip install -r requirements.txt
+```
