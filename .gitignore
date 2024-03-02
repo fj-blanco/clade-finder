@@ -1,0 +1,5 @@
+# Virtual environment on the working directory
+*venv/
+# Auxiliary and output directories
+/clade-finder/
+/tabix_output/
