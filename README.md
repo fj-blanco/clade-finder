@@ -44,7 +44,7 @@ python createTreeInTabix.py yfull_tree/tree_11.05.0.json --create_tabix_files
 
 ## CladeFinder wrapper
 
-I have created a wrapper (work in progress) `clade-finder.py` to use the clade-finder with different file formats in a unified manner from command line.
+I have created a wrapper (work in progress) `clade_finder.py` to use the clade-finder with different file formats in a unified manner from command line.
 
 ### Input file formats
 
@@ -63,7 +63,7 @@ The spaces between the commas are removed.
 Run the wrapper on the `test/sample_for_clade_finder.txt` file:
 
 ```bash
-python clade-finder.py txt test/sample_for_clade_finder.txt tabix_output/cladeSNP.bgz tabix_output/SNPclade.bgz
+python clade_finder.py txt test/sample_for_clade_finder.txt tabix_output/cladeSNP.bgz tabix_output/SNPclade.bgz
 ```
 
 You should get the following output:
