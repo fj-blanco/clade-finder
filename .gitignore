@@ -6,3 +6,4 @@
 /tabix_output/
 # Python cache
 __pycache__/
+.venv/
