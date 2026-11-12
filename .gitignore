@@ -1,0 +1,9 @@
+# Virtual environment on the working directory
+*venv/
+# Auxiliary and output directories
+/yfull_tree/
+/clade-finder/
+/tabix_output/
+# Python cache
+__pycache__/
+.venv/

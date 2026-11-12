@@ -1,0 +1,13 @@
+{
+  "id": "Adam",
+  "snps": "",
+  "children": [
+    {"id": "J-Z6065", "snps": "Z6065", "children": [
+      {"id": "J-YP879", "snps": "YP879/ALIAS879", "children": []}
+    ]},
+    {"id": "R-L21", "snps": "L21", "children": [
+      {"id": "R-DF13", "snps": "DF13", "children": []}
+    ]},
+    {"id": "E-M81", "snps": "M81", "children": []}
+  ]
+}
